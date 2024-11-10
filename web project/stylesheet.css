@@ -1,0 +1,50 @@
+*{
+    font-family: Playfair, serif;
+}
+body {
+    font-family: Playfair, serif;
+    margin: 0;
+    padding: 0;
+    background-image:url(background.jpeg) ;
+    background-size: 100%;
+
+}
+.background{
+    width: 100%;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+    padding: 10px 20px;
+}
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 14px 20px;
+    font-size: 130%;
+}
+.navbar a:hover {
+    
+    color: black;
+    transform: scaleX(1);
+    transform-origin: bottom left;
+
+}
+.navbar .logo {
+    color: white;
+    font-size: 250%;
+    font-weight: bold;
+}
+.navbar .menu {
+    display: flex;
+}
+
+ body .head{
+    color: aliceblue;
+    font-size: 500%;
+    font-weight: bold;
+    width: 45%;
+    padding-left: 50px;
+}
